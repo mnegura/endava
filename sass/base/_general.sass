@@ -1,0 +1,63 @@
+.jumbotron
+	background-color: transparent
+	
+
+h2
+	color: ($oxblood !important)
+h4
+	color: $blackboard
+
+.productimg
+	width: 200px;
+	height: 200px;
+
+// .mybox
+// 	background-color: white
+// 	padding: 10px
+// 	height: 350px
+// 	overflow: hidden
+// 	border: 5px solid #f5f5f5
+// 	&:hover
+// 		transition: all 200ms ease-in;
+// 		transform: scale(1.1)
+// 		z-index: 2
+// 		height: auto
+// 		border: none
+// 		margin-top: -50px
+// 		p
+// 			opacity: 1
+// 	p 
+// 		opacity: 0
+
+
+body
+	background-color: #f5f5f5
+
+.text
+	color: white
+	font-size: 20px
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	-ms-transform: translate(-50%, -50%)
+	opacity: (1 !important)
+
+.overlay
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	height: 100%
+	width: 100%
+	opacity: 0
+	transition: .5s ease
+	background-color: $blackboard
+
+.mybox
+	border: 5px solid #f5f5f5
+	background-color: white
+	&:hover .overlay
+		opacity: 1
+		background-color: rgba(86, 86, 86, 0.6)
